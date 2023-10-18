@@ -33,92 +33,92 @@ footer {
 }
 
 .cardStyles {
-    width: 100px;
-    border: 5px solid #3e2387;
-    border-radius: 10px;
+	border: 5px solid #3e2387;
+	border-radius: 10px;
+	width: 100px;
 }
 
 .player {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0;
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0;
 }
 
 .player:last-child {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .playerInfo {
-    display: flex;
-    margin: 10px 30px;
-    align-items: center;
+	align-items: center;
+	display: flex;
+	margin: 10px 30px;
 }
 
 .playerInfo > img {
-    border-radius: 40px;
-    border: 5px solid black;
+	border: 5px solid black;
+	border-radius: 40px;
 }
 
 .playerInfo > h2 {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
 .cardLayout img:nth-child(even) {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .cardLayout {
-    display: flex;
-    align-items: flex-start;
-    background-color: #23873e;
-    padding: 30px;
-    border-radius: 20px;
-    border: 10px solid #873e23;
+	align-items: flex-start;
+	background-color: #23873e;
+	border: 10px solid #873e23;
+	border-radius: 20px;
+	display: flex;
+	padding: 30px;
 }
 
 .cardLayout img:not(:first-child) {
-    margin-left: -20px;
+	margin-left: -20px;
 }
 
 @media screen and (max-width: 650px) {
-    .cardStyles {
-        width: 80px;
-    }
+	.cardStyles {
+		width: 80px;
+	}
 
-    main {
-        width: 100%;
-        padding: 0px;
-    }
+	main {
+		padding: 0px;
+		width: 100%;
+	}
 
-    section {
-        padding: 10px;
-    }
+	section {
+		padding: 10px;
+	}
 
-    .cardLayout {
-        padding: 10px;
-    }
+	.cardLayout {
+		padding: 10px;
+	}
 }
 
 @media screen and (max-width: 500px) {
+	.playerInfo {
+		margin: 5px;
+	}
 
-    .playerInfo {
-        margin: 5px;
-    }
-.playerInfo > img {
-    width: 60px;
-    border-radius: 30px;
-}
+	.playerInfo > img {
+		border-radius: 30px;
+		width: 60px;
+	}
 
-.playerInfo > h2 {
-    margin-left: 10px;
-}
+	.playerInfo > h2 {
+		margin-left: 10px;
+	}
 
-    .cardLayout {
-        border: 5px solid #873e23;
-        padding: 5px;
-    }
+	.cardLayout {
+		border: 5px solid #873e23;
+		padding: 5px;
+	}
 
-    .cardStyles {
-        width: 60px;
-    }
+	.cardStyles {
+		width: 60px;
+	}
 }
